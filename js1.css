@@ -1,0 +1,35 @@
+body {
+  display: flexbox;
+  background-color: blueviolet;
+}
+#mytxt {
+  display: flex;
+  font-size: 50px;
+  color: rgb(199, 14, 255);
+
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+  max-width: max-content;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.butt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mybut {
+  color: purple;
+  background-color: rgb(207, 122, 233);
+  border-radius: 20px;
+  border: none;
+  padding: 9%;
+  margin: 2%;
+  transition-duration: 0.5s;
+}
+.mybut:hover {
+  cursor: pointer;
+  background-color: rgb(199, 14, 255);
+}
